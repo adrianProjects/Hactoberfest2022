@@ -1,1 +1,3 @@
-## Encoding - Decoding NLP
+# Encoding - Decoding NLP
+
+Encoding and Decoding comes under sequence to sequence modeling which is nothing but aims to map a fixed-length input with a fixed-length output where the length of input and output may differ.
