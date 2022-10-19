@@ -1,3 +1,27 @@
 # Encoding - Decoding NLP
 
 Encoding and Decoding comes under sequence to sequence modeling which is nothing but aims to map a fixed-length input with a fixed-length output where the length of input and output may differ.
+
+Procedure to perform Encoding-Decoding on String.
+
+Step 1 - Take a sample string
+Sample_string = 'Hi this is Adrian'
+
+Step 2 - Print the Sample string
+print('The Sample string is:', Sample_string)
+
+The Sample string is: HI this is Adrian
+Step 3 - Encode the Sample string
+
+Sample_encode = Sample_string.encode()
+By default the string gets encoded in "utf-8"
+
+Step 4 - Decode the encoded string
+Sample_decode = Sample_encode.decode()
+
+Step 5 - Print the results
+
+print('The encoded string is:', Sample_encode, '\n')
+print('The decoded string is:', Sample_decode)
+
+The encoded string is: b'Hi this is Adrian' 
